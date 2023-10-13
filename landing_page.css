@@ -1,0 +1,195 @@
+body {
+  background-color: #2f1893;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+
+.nav_container > ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  font-size: 1.2rem;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main_left_button {
+  width: 100%;
+}
+
+.main_left_btn {
+  border-radius: 50px;
+  align-items: flex-start;
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+}
+
+ul > li:last-child,
+.main_left_button > button {
+  background-color: #e93a7d;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+
+.overview {
+  opacity: 50%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 70vw;
+  margin-top: 30px;
+  gap: 10%;
+}
+
+.main_left {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_left_title {
+  font-size: 3.7rem;
+  position: relative;
+}
+
+.main_left_para {
+  font-size: 1.3rem;
+}
+
+.sign_up {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+  width: 25vw;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+}
+
+.heading {
+  font-size: 20px;
+  color: #1e0e62;
+}
+
+.credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.credentials > input {
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  border: 1px solid rgba(0, 0, 0, 0.16);
+
+  width: 200px;
+}
+
+.tNc {
+  color: #a3a3b2;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+}
+
+.buttons > button {
+  color: white;
+  border-radius: 15px;
+  height: 35px;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.buttons > button {
+  color: white;
+  background-color: #482be7;
+}
+
+.login_twtr {
+  background-color: #1da1f2 !important ;
+}
+
+.other_opt {
+  color: #a2a2b1;
+}
+
+.other_opt > span > a {
+  color: #66cdbe;
+  font-weight: 300;
+}
+
+.buttons:last-child {
+  color: white;
+  background-color: #1da1f2;
+}
+
+input[type="checkbox"] {
+  accent-color: #25dac5;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a3a3b2;
+}
+
+.flex-item {
+  flex-grow: 1;
+  background-color: #ccc;
+  height: 1px;
+}
+
+.separator {
+  flex-grow: 0;
+  margin: 0 5px;
+}

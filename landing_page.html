@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <meta name="author" content="Hardik Chouhan">
+    <link rel="stylesheet" href="./landing_page.css" />
+    <title>Assignment Task</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav_container">
+        <a class="nav_title" href="#">Startup 3</a>
+        <ul class="nav_list">
+          <li class="nav-item active">
+            <a class="nav-link overview" href="#">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Purchase</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="main_container">
+        <section class="main_left">
+          <div class="main_left_title">Generate Awesome Web Pages</div>
+          <p class="main_left_para">
+            The most important part of the Startup is the samples. The samples
+            form a set of 25 usable pages you can use as is or you can add new
+            blocks.
+          </p>
+          <div class="main_left_button">
+            <button class="main_left_btn">Learn More</button>
+          </div>
+        </section>
+        <section class="main_right">
+          <form action="/sign_up" method="POST" class="sign_up">
+            <div class="heading">
+              <h2>Sign Up Now</h2>
+            </div>
+            <div class="credentials">
+              <input type="text" class="email" placeholder="Your email" /><input
+                type="text"
+                class="password"
+                placeholder="Your password"
+              />
+            </div>
+            <p class="tNc">
+              <input type="checkbox" name="tNc" id="tNc" />I agree to Terms of
+              Service.
+            </p>
+            <div class="buttons">
+              <button class="sign_up_btn">Sign In</button>
+              <div class="flex-container">
+                <div class="flex-item"></div>
+                <div class="separator">or</div>
+                <div class="flex-item"></div>
+              </div>
+              <button class="login_twtr">Login via Twitter</button>
+            </div>
+            <p class="other_opt">
+              Do you have an Account?
+              <span><a href="./sign_in">Sign In</a></span>
+            </p>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
